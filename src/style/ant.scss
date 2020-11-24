@@ -1,0 +1,18 @@
+// 轮播图
+#carouselContainer{
+    .ant-carousel .slick-dots{
+        height:12px !important
+    }
+    .ant-carousel .slick-dots li{
+        padding:0 4px;
+    }
+    .ant-carousel .slick-dots li button{
+        width:8px;
+        height:8px;
+        border-radius: 50%;
+        background:#000;
+    }
+    .ant-carousel .slick-dots .slick-active button{
+        background:#fff !important;
+    }
+}
